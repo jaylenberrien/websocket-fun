@@ -8,24 +8,32 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/home/jaylen/.nuget/packages/": {}
+    "C:\\Users\\jayle\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jaylen/Code/websocket-fun/backend/backend.csproj",
+      "projectUniqueName": "C:\\Code\\websocket-fun\\backend\\backend.csproj",
       "projectName": "backend",
-      "projectPath": "/home/jaylen/Code/websocket-fun/backend/backend.csproj",
-      "packagesPath": "/home/jaylen/.nuget/packages/",
-      "outputPath": "/home/jaylen/Code/websocket-fun/backend/obj/",
+      "projectPath": "C:\\Code\\websocket-fun\\backend\\backend.csproj",
+      "packagesPath": "C:\\Users\\jayle\\.nuget\\packages\\",
+      "outputPath": "C:\\Code\\websocket-fun\\backend\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/jaylen/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\jayle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -68,7 +76,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
