@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Register(){
 
 
@@ -22,7 +24,7 @@ export default function Register(){
                         <br/><br/>
                         <button>Create Account</button>
                     </form>
-                    <p id="create-acccount-prompt">Already have an account? <a href="">Login!</a></p>
+                    <p id="create-acccount-prompt">Already have an account? <Link to="/">Login!</Link></p>
                 </div>
                 
             </div>

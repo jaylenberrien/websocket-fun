@@ -1,4 +1,7 @@
 import "./Login.css"
+import { Link } from "react-router-dom";
+import NavBar from "../Components/NavBar";
+
 
 export default function Login(){
 
@@ -6,6 +9,7 @@ export default function Login(){
     return(
     <>
         <div id="page-container">
+            < NavBar />
             <h1>This is the login screen</h1>
             <div id="form-container">
                 <form>
@@ -19,7 +23,7 @@ export default function Login(){
                     <br/><br/>
                     <button>login</button>
                 </form>
-                <p id="create-acccount-prompt">Don't have an account? Create one <a href="">here</a></p>
+                <p id="create-acccount-prompt">Don't have an account? Create one <Link to = "/register">here!</Link></p>
             </div>
         </div>
     </>
