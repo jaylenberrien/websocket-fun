@@ -22,5 +22,4 @@ export default function ChatRoom(){
 }
 
 
-//i am going to have to figure out how im going to get back into my ssms
-//its not letting me login with sql or windows auth, idk why
+

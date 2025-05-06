@@ -13,4 +13,4 @@ export default function ChatList(){
     )
 }
 
-//will add more too later. 
+//next thing we are going to do is websocket research and fix ssms
